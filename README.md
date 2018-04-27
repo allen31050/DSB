@@ -1,24 +1,30 @@
+
 # 2018 Data Science Bowl
 
-##```train.py``` 
-Overall training process
+## Overall Training Process
+```train.py``` 
 
-##```net```
-The main network
+## Main Network
 
+- Network Overview  
 ```net/resnet50_mask_rcnn/model.py```  
-main network overview  
 
+- Layers
 ```net/resnet50_mask_rcnn/layer```  
 features passing through (1)rpn, (2)rcnn and (3)mask layers in sequence  
 
+- Parameters
 ```net/resnet50_mask_rcnn/configuration.py```  
-Parameters
 
-##```annotate.py```
-Data processing before training (Note that data are kept offline)
+## Data Processing
+```annotate.py```
+Processing before training (Note that data are kept offline)
 
-##```submit.py```
-make a submission after training (Note that results are kept offline)
+## Submit
+```submit.py```
+Make a submission after training (Note that results are kept offline)
 
-code modified from: https://www.kaggle.com/c/data-science-bowl-2018/discussion/49692#282662
+## Source
+code source and modifications inspired by posts in
+https://www.kaggle.com/c/data-science-bowl-2018/discussion/
+https://www.kaggle.com/c/data-science-bowl-2018/kernels/
