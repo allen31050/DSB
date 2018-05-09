@@ -25,6 +25,5 @@ Processing before training (Note that data are kept offline)
 Make a submission after training (Note that results are kept offline)
 
 ## Source
-code source and modifications inspired by posts in  
 https://www.kaggle.com/c/data-science-bowl-2018/discussion/  
 https://www.kaggle.com/c/data-science-bowl-2018/kernels/
